@@ -83,6 +83,11 @@ main {
 
 .header-content {
     z-index: 2;
+     text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
 }
 
 .header-content h1 {
@@ -109,6 +114,8 @@ main {
     text-align: center;
     padding-right: 1rem;
     padding-left: 1rem;
+    
+
 }
 
 #landing-text h2 {

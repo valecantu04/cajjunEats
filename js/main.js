@@ -14,3 +14,11 @@ $('#view-food').on('click', function () {
         scrollTop: images
     }, 1000);
 });
+
+$('#contact-us').on('click', function () {
+    const contact = $('#contact').position().top;
+
+    $('html, body').animate({
+        scrollTop: contact
+    }, 1000);
+});

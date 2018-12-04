@@ -29,9 +29,49 @@ img {
 main {
     max-width: 900px;
     margin: auto;
-    box-shadow: 30px 0px 40px rgba(0,0,0,0.1),
-    -30px 0px 40px rgba(0, 0, 0, 0.1);
+    box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1),
+        -30px 0px 40px rgba(0, 0, 0, 0.1);
 }
+
+.v-header {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 900px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    text-align: center;
+}
+
+.fullscreen-video-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+}
+
+.fullscreen-video-wrap video {
+    min-height: 100%;
+    min-width: 73%;
+    justify-content: center
+}
+
+/* .header-overlay {
+    min-height: 100%;
+    min-width: 100%;
+    z-index: 1;
+    background: #e2582e;
+    opacity: 0.25;
+    display: flex;
+
+} */
 
 #landing {
     background: #ffffff
@@ -43,12 +83,12 @@ main {
     height: 50vh;
     justify-content: center;
     align-items: center;
-    text-align: center; 
+    text-align: center;
     padding-right: 1rem;
     padding-left: 1rem;
 }
 
-#landing-text h2{
+#landing-text h2 {
     color: #888
 }
 
@@ -57,14 +97,14 @@ main {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 50vh;
+    height: 100vh;
     flex: 0 1 60vw;
     margin: 0;
 }
 
 .btn {
     padding: 0.5rem 2rem;
-    border: 1px #ccc solid;
+    border: 1px #888888 solid;
     display: inline-block;
     margin: 2rem 0 0;
     border-radius: 50px;
@@ -84,7 +124,7 @@ main {
     color: #ffffff;
 }
 
-#header h2{
+#header h2 {
     border-left: dotted 1px #ffffff;
     border-right: dotted 1px #ffffff;
     display: inline-block;
@@ -111,7 +151,7 @@ footer h3 {
 
 /* Split screen for sizes 500px and up */
 @media(min-width: 500px) {
-    #landing{
+    #landing {
         display: flex;
         height: 100%;
     }

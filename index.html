@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,15 +8,26 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Down South CaJJun Eats</title>
 </head>
+
 <body>
     <main>
+        <header class="v-header container ">
+            <div class="fullscreen-video-wrap">
+                <video src="images/IMG_2273.mov" autoplay="true" loop="true"></video>
+            </div>
+            <div class="header-overlay"></div>
+        </header>
+        <!--video goes here-->
         <div id="landing">
             <div id="landing-text">
                 <div id="landing-text-inner">
                     <h1>Down South CaJJun Eats</h1>
                     <h2>Tastes So Good ~ Don't Make No Sense!</h2>
-                    <a href="#images" class="btn" id="view-work">
-                        Check out our food!
+                    <a href="#team-images" class="btn" id="view-team">
+                        Meet The Team
+                    </a>
+                    <a href="#food-images" class="btn" id="view-food">
+                        Check Out Our Food
                     </a>
                 </div>
             </div>
@@ -23,11 +35,11 @@
 
             </div>
         </div>
-        <div id="images">
+        <div id="team-images">
             <div id="header">
-                <h2>Our Work</h2>
+                <h2>Our Team</h2>
             </div>
-<!--IMAGES GO HERE-->
+            <!-- TEAM IMAGES GO HERE-->
             <img src="images/IMG_2346.jpeg" alt="">
             <div class="caption">
                 <h3>Photo Two</h3>
@@ -57,7 +69,13 @@
                 <h3>Photo Six</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, enim.</p>
             </div>
-
+            <!--TEAM IMAGES END HERE-->
+        </div>
+        <div id="food-images">
+            <div id="header">
+                <h2>Our Food</h2>
+            </div>
+            <!-- FOOD IMAGES GO HERE-->
             <img src="images/IMG_4244.jpg" alt="">
             <div class="caption">
                 <h3>Photo Seven</h3>
@@ -87,16 +105,20 @@
                 <h3>Photo Eleven</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, enim.</p>
             </div>
-<!--IMAGES END HERE-->
+            <!-- FOOD IMAGES END HERE-->
         </div>
     </main>
+
+
+
     <footer>
         <h3>Get In Touch</h3>
         <p>Enter your information to recieve a quote from us</p>
     </footer>
     <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
-    
+
     <script src="js/main.js"></script>
 </body>
+
 </html>

@@ -12,17 +12,17 @@ $(document).ready(function (){
         var statusElm = $('.status')
         statusElm.empty()
 
-        if (name.length == 0 && !email.includes('@') && !email.includes('.')) {
+        if (name.length == 0) {
             event.preventDefault()
-            statusElm.append('<div>Email is invalid</div>')
+            statusElm.append('<div>Name is invalid</div>')
         }
         if(email.length < 4 && !email.includes('@') && !email.includes('.')){
             event.preventDefault()
             statusElm.append('<div>Email is invalid</div>')
         }
-        if (number.length < 9) {
+        if (date == '') {
             event.preventDefault()
-            statusElm.append('<div>Number is invalid</div>')
+            statusElm.append('<div>Date is invalid</div>')
         }
     })
 })

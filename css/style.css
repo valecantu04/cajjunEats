@@ -39,7 +39,7 @@ textarea {
     display: block;
 }
 
-.status{
+.status {
     color: #fb3310
 }
 
@@ -89,6 +89,81 @@ textarea {
     background: #a03919;
     opacity: 0.35;
     margin: auto;
+}
+
+.form-style {
+    font-family: 'Roboto Condensed', sans-serif;
+    max-width: 400px;
+    margin: 25% auto;
+    padding: 16px;
+    background: #F7F7F7;
+    justify-content: center;
+}
+
+.form-style h1 {
+    background: rgb(158, 54, 12);
+    padding: 20px 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin: -16px -16px 16px -16px;
+}
+
+.form-style input[type="text"],
+.form-style input[type="Tel"],
+.form-style input[type="email"],
+.form-style input[type="date"],
+.form-style input[type="Number"],
+.form-style input[type="message"],
+.form-style textarea,
+.form-style select {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 4%;
+    border: 1px solid #ccc;
+    padding: 3%;
+    color: #555;
+    font: 95% Arial, Helvetica, sans-serif;
+}
+
+.form-style input[type="text"]:focus,
+.form-style input[type="Tel"]:focus,
+.form-style input[type="email"]:focus,
+.form-style input[type="date"]:focus,
+.form-style input[type="Number"]:focus,
+.form-style input[type="message"]:focus,
+.form-style textarea:focus,
+.form-style select:focus {
+    box-shadow: 0 0 5px rgb(209, 171, 67);
+    padding: 3%;
+    border: 1px solid rgb(209, 171, 67);
+}
+
+.form-style input[type="submit"] {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    padding: 3%;
+    transition: background 500ms ease;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    color: #000;
+}
+
+.form-style input[type="submit"]:hover {
+    background: #fb3310
 }
 
 .header-content {

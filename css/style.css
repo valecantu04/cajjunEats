@@ -94,10 +94,11 @@ textarea {
 .form-style {
     font-family: 'Roboto Condensed', sans-serif;
     max-width: 400px;
-    margin: 25% auto;
+    margin: 5%;
     padding: 16px;
     background: #F7F7F7;
     justify-content: center;
+    height: auto;
 }
 
 .form-style h1 {
@@ -232,7 +233,7 @@ textarea {
 }
 
 .btn:hover {
-    background: #fb3310
+    background: #fb3310;
 }
 
 #header {

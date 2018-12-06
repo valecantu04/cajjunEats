@@ -154,11 +154,13 @@ textarea {
     -moz-box-sizing: border-box;
     width: 100%;
     padding: 3%;
+    background: #a1908a;
     transition: background 500ms ease;
     border-bottom: 2px solid rgb(0, 0, 0);
     border-top-style: none;
     border-right-style: none;
     border-left-style: none;
+    border-width: 1px 1px 3px;
     color: #000;
 }
 

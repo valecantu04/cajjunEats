@@ -1,6 +1,6 @@
 $(document).ready(function (){
     $('.submit').click(function (event){
-        console.log('click')
+        console.log('submit')
 
         var name = $('.name').val()
         var number = $('.number').val()
@@ -14,15 +14,15 @@ $(document).ready(function (){
 
         if (name.length == 0) {
             event.preventDefault()
-            statusElm.append('<div>Name is invalid</div>')
+            statusElm.append('Name is invalid, ')
         }
-        if(email.length < 4 && !email.includes('@') && !email.includes('.')){
+        if((email.length < 4 && !email.includes('@') && !email.includes('.')) || (number.length < 6 )){
             event.preventDefault()
-            statusElm.append('<div>Email is invalid</div>')
+            statusElm.append('Email or Number is invalid, ')
         }
         if (date == '') {
             event.preventDefault()
-            statusElm.append('<div>Date is invalid</div>')
+            statusElm.append('Date is invalid')
         }
     })
 })

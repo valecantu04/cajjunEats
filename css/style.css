@@ -110,7 +110,12 @@ textarea {
 
 .form-style h1 {
     background: rgb(158, 54, 12);
-    padding: 20px 0;
+    
+        padding-right: 1rem;
+        padding-left: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        
     font-size: 140%;
     font-weight: 300;
     text-align: center;
@@ -212,6 +217,7 @@ textarea {
     padding-right: 1rem;
     padding-left: 1rem;
     padding-top: 1rem;
+    padding-bottom: 1rem;
 
 
 }

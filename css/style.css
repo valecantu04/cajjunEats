@@ -38,6 +38,8 @@ label,
 input,
 textarea {
     display: block;
+    color: #000000;
+    line-height: 1.25em;
 }
 
 .middle {
@@ -47,7 +49,11 @@ textarea {
 }
 
 .status {
-    color: #fb3310
+ padding: 0px;
+ background-color: #f44336;
+ /* Red */
+ color: white;
+ margin-bottom: 15px;
 }
 
 .v-header {
@@ -101,12 +107,11 @@ textarea {
 #buffer {
     padding: 1.5rem;
     text-align: center;
-    background: #ffffff;
 }
 
 #navbar {
     overflow: hidden;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255, 0.8);
     text-align: center;
     margin: auto;
     padding-top: 5px;
@@ -117,10 +122,16 @@ textarea {
 /* Navbar links */
 #navbar a {
     color: #000000;
+    background-color: #fff;
     text-align: center;
     padding: 14px;
     text-decoration: none;
     margin: auto;
+    transition: background 500ms ease;
+}
+
+#navbar :hover {
+    background: #da2100;
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
@@ -140,6 +151,11 @@ textarea {
     padding-top: 60px;
 }
 
+form {
+    height: 100vh;
+    max-height: 60%;
+}
+
 .form-style {
     font-family: 'Bitter', sans-serif;
     max-width: 400px;
@@ -152,7 +168,7 @@ textarea {
 
 .form-style h1 {
     background: rgb(158, 54, 12);
-
+    border-radius: 12px;
     padding-right: 1rem;
     padding-left: 1rem;
     padding-top: 1rem;
@@ -275,6 +291,7 @@ textarea {
     height: 100vh;
     flex: 0 1 60vw;
     margin: 0;
+
 }
 
 .btn {
@@ -289,7 +306,7 @@ textarea {
 }
 
 .btn:hover {
-    background: #fb3310;
+    background: #da2100;
 }
 
 #header {

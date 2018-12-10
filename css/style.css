@@ -3,7 +3,7 @@
 
 body {
     font-family: 'Bitter', sans-serif;
-    margin: 0;
+    margin: auto;
     background: #eee;
     height: auto;
 }
@@ -38,6 +38,12 @@ label,
 input,
 textarea {
     display: block;
+}
+
+.middle {
+    text-align: center;
+    margin: auto;
+    color: #333;
 }
 
 .status {
@@ -83,7 +89,7 @@ textarea {
     right: 0;
     bottom: 0;
     left: 0;
-    width: 875px;
+    max-width: 900px;
     height: 50vh;
     position: absolute;
     z-index: 2;
@@ -98,6 +104,42 @@ textarea {
     background: #ffffff;
 }
 
+#navbar {
+    overflow: hidden;
+    background-color: #fff;
+    text-align: center;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+/* Navbar links */
+#navbar a {
+    color: #000000;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    margin: auto;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    max-width: 900px;
+    z-index: 4;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky+.content {
+    padding-top: 60px;
+}
+
 .form-style {
     font-family: 'Bitter', sans-serif;
     max-width: 400px;
@@ -105,17 +147,16 @@ textarea {
     padding: 16px;
     background: #F7F7F7;
     justify-content: center;
-    height: auto;
+    height: 0%;
 }
 
 .form-style h1 {
     background: rgb(158, 54, 12);
-    
-        padding-right: 1rem;
-        padding-left: 1rem;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        
+
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     font-size: 140%;
     font-weight: 300;
     text-align: center;
@@ -159,6 +200,7 @@ textarea {
     box-shadow: 0 0 5px rgb(209, 171, 67);
     padding: 3%;
     border: 1px solid rgb(209, 171, 67);
+    height: 90%;
 }
 
 .form-style input[type="submit"] {
@@ -167,18 +209,16 @@ textarea {
     -moz-box-sizing: border-box;
     width: 100%;
     padding: 3%;
-    background: #a1908a;
+    background: #942f0b;
     transition: background 500ms ease;
     border-bottom: 2px solid rgb(0, 0, 0);
-    border-top-style: none;
-    border-right-style: none;
-    border-left-style: none;
-    border-width: 1px 1px 3px;
-    color: #000;
+    border: 2px solid red;
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
 }
 
 .form-style input[type="submit"]:hover {
-    background: #fb3310
+    background: #ff6600
 }
 
 .header-content {

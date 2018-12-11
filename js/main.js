@@ -1,5 +1,5 @@
-$(document).ready(function (){
-    $('.submit').click(function (event){
+$(document).ready(function () {
+    $('.submit').click(function (event) {
         console.log('submit')
 
         var name = $('.name').val()
@@ -16,7 +16,7 @@ $(document).ready(function (){
             event.preventDefault()
             statusElm.append('Name is invalid, ')
         }
-        if((email.length < 4 && !email.includes('@') && !email.includes('.')) || (number.length < 6 )){
+        if ((email.length < 4 && !email.includes('@') && !email.includes('.')) || (number.length < 6)) {
             event.preventDefault()
             statusElm.append('Email or Number is invalid, ')
         }
@@ -29,7 +29,9 @@ $(document).ready(function (){
 
 
 // When the user scrolls the page, execute myFunction 
-window.onscroll = function () { myFunction() };
+window.onscroll = function () {
+    myFunction()
+};
 
 // Get the navbar
 var navbar = document.getElementById("navbar");
@@ -72,7 +74,7 @@ $('#contact-us').on('click', function () {
 });
 
 $('#get-quote').on('click', function () {
-    const landing = $('#landing').position().top-30;
+    const landing = $('#landing').position().top - 30;
 
     $('html, body').animate({
         scrollTop: landing
@@ -92,12 +94,41 @@ function currentSlide(n) {
     showSlides(slideIndex = n);
 }
 
+// Thumbnail image controls
+function currentSlide1(n) {
+    showSlides(slideIndex = n);
+}
+
 function showSlides(n) {
     var i;
     var slides = document.getElementsByClassName("mySlides");
     var dots = document.getElementsByClassName("dot");
-    if (n > slides.length) { slideIndex = 1 }
-    if (n < 1) { slideIndex = slides.length }
+    if (n > slides.length) {
+        slideIndex = 1
+    }
+    if (n < 1) {
+        slideIndex = slides.length
+    }
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
+}
+
+function showSlides1(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides1");
+    var dots = document.getElementsByClassName("dot1");
+    if (n > slides.length) {
+        slideIndex = 1
+    }
+    if (n < 1) {
+        slideIndex = slides.length
+    }
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
     }

@@ -51,9 +51,9 @@ textarea {
 .status {
     padding: 0px;
     background-color: #f44336;
-    /* Red */
     color: white;
     margin-bottom: 15px;
+    font-size: 10;
 }
 
 .v-header {
@@ -400,19 +400,19 @@ a {
 .button {
     width: 30px;
     height: 30px;
-    border-top: 2px solid rgb(49, 31, 31);
+    border-top: 5px solid rgb(85, 75, 75);
     position: absolute;
     cursor: pointer;
 }
 
 .prev {
-    border-left: 2px solid rgb(49, 31, 31);
+    border-left: 5px solid rgb(85, 75, 75);
     left: 10%;
     transform: rotate(-45deg);
 }
 
 .next {
-    border-right: 2px solid rgb(49, 31, 31);
+    border-right: 5px solid rgb(85, 75, 75);
     right: 10%;
     transform: rotate(45deg);
 }
@@ -423,6 +423,7 @@ a {
     justify-content: center;
     align-items: center;
     height: 50vh;
+    padding-top: 10px;
 }
 
 .slider-wrapper1 {
@@ -454,19 +455,19 @@ a {
 .button1 {
     width: 30px;
     height: 30px;
-    border-top: 2px solid black;
+    border-top: 5px solid rgb(85, 75, 75);
     position: absolute;
     cursor: pointer;
 }
 
 .prev1 {
-    border-left: 2px solid black;
+    border-left: 5px solid rgb(85, 75, 75);
     left: 10%;
     transform: rotate(-45deg);
 }
 
 .next1 {
-    border-right: 2px solid black;
+    border-right: 5px solid rgb(85, 75, 75);
     right: 10%;
     transform: rotate(45deg);
 }
@@ -507,19 +508,19 @@ a {
 .button2 {
     width: 30px;
     height: 30px;
-    border-top: 2px solid black;
+    border-top: 5px solid rgb(85, 75, 75);
     position: absolute;
     cursor: pointer;
 }
 
 .prev2 {
-    border-left: 2px solid black;
+    border-left: 5px solid rgb(85, 75, 75);
     left: 10%;
     transform: rotate(-45deg);
 }
 
 .next2 {
-    border-right: 2px solid black;
+    border-right: 5px solid rgb(85, 75, 75);
     right: 10%;
     transform: rotate(45deg);
 }

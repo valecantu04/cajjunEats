@@ -72,7 +72,7 @@ $('#contact-us').on('click', function () {
 });
 
 $('#get-quote').on('click', function () {
-    const landing = $('#landing').position().top;
+    const landing = $('#landing').position().top-30;
 
     $('html, body').animate({
         scrollTop: landing

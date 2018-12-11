@@ -206,6 +206,14 @@ form {
     font: 95% Arial, Helvetica, sans-serif;
 }
 
+.form-style input[type="checkbox"] {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 1%;
+    display: inline;
+    padding-bottom: 1%
+}
+
 .form-style input[type="text"]:focus,
 .form-style input[type="Tel"]:focus,
 .form-style input[type="email"]:focus,
@@ -359,6 +367,7 @@ a {
     .header-content {
         margin-left: 15%
     }
+
     .btn {
         padding: 1rem 3rem;
     }

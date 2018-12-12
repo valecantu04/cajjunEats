@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
     <link rel="shortcut icon" type="image/png" href="../images/IMG_1840.PNG">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
     <title>Down South CaJJun Eats</title>
 </head>
 
@@ -65,18 +67,30 @@
                             </label>
 
                             <checkbox-wrapper>
-                            <li><input type="checkbox" name="Corn" value="Corn" /><label1 for="Corn">Corn</label1></li>
-                            <li><input type="checkbox" name="Potatoes" value="Potatoes" /><label1 for="Potatoes">Potatoes</label1></li>
-                            <li><input type="checkbox" name="Sausage" value="Sausage" /><label1 for="Sausage">Sausage</label1></li>
-                            <li><input type="checkbox" name="Mushrooms" value="Mushrooms" /><label1 for="Mushrooms">Mushrooms</label1></li>
-                            <li><input type="checkbox" name="Boiled Eggs" value="Boiled Eggs" /><label1 for="Boiled Eggs">Boiled Eggs</label1></li>
-                            <li><input type="checkbox" name="Turkey Necks" value="Turkey Necks" /><label1 for="Turkey Necks">Turkey Necks</label1></li>
+                                <li><input type="checkbox" name="Corn" value="Corn" />
+                                    <label1 for="Corn">Corn</label1>
+                                </li>
+                                <li><input type="checkbox" name="Potatoes" value="Potatoes" />
+                                    <label1 for="Potatoes">Potatoes</label1>
+                                </li>
+                                <li><input type="checkbox" name="Sausage" value="Sausage" />
+                                    <label1 for="Sausage">Sausage</label1>
+                                </li>
+                                <li><input type="checkbox" name="Mushrooms" value="Mushrooms" />
+                                    <label1 for="Mushrooms">Mushrooms</label1>
+                                </li>
+                                <li><input type="checkbox" name="Boiled Eggs" value="Boiled Eggs" />
+                                    <label1 for="Boiled Eggs">Boiled Eggs</label1>
+                                </li>
+                                <li><input type="checkbox" name="Turkey Necks" value="Turkey Necks" />
+                                    <label1 for="Turkey Necks">Turkey Necks</label1>
+                                </li>
 
-                            <label>
-                                <textarea name="message" placeholder="Message & Special Requests" class="message"></textarea>
-                            </label>
-                            <div class="status"></div>
-                            <input type="submit" value="Submit" class="submit">
+                                <label>
+                                    <textarea name="message" placeholder="Message & Special Requests" class="message"></textarea>
+                                </label>
+                                <div class="status"></div>
+                                <input type="submit" value="Submit" class="submit">
                         </form>
                     </div>
                 </div>
@@ -84,49 +98,39 @@
             <div id="team-images">
                 <div id="header">
                     <h2>Our Team</h2>
-                </div>
-                <!-- Slideshow container -->
-                <div class="slideshow-container1">
-
-                    <div class="slider-wrapper1">
-                        <div class="inner-wrapper1">
-                            <img class="slide1" src="images/IMG_3017.jpg">
-                            <img class="slide1" src="images/IMG_4242.jpg">
-                            <img class="slide1" src="images/IMG_4241.jpg">
-                            <img class="slide1" src="images/IMG_4243.jpg">
-                        </div>
-                    </div>
-
                     <div class="button prev1"></div>
                     <div class="button next1"></div>
                 </div>
-
+                <!--slick carousel-->
+                <div class="team-slickSlider">
+                    <div><img src="images/IMG_3017.jpg"></div>
+                    <div><img src="images/IMG_4242.jpg"></div>
+                    <div><img src="images/IMG_4241.jpg"></div>
+                    <div><img src="images/IMG_4243.jpg"></div>
+                </div>
                 <div class="caption">
                     <h3>About Us</h3>
                     <p></p>
                 </div>
             </div>
+
             <div id="food-images">
                 <div id="header">
                     <h2>Our Food</h2>
-                </div>
-
-                <div class="slideshow-container">
-
-                    <div class="slider-wrapper">
-                        <div class="inner-wrapper">
-                            <img class="slide" src="images/IMG_4244.jpg">
-                            <img class="slide" src="images/IMG_4245.jpg">
-                            <img class="slide" src="images/IMG_4246.jpg">
-                            <img class="slide" src="images/IMG_0682.jpg">
-                            <img class="slide" src="images/IMG_0688.jpg">
-                            <img class="slide" src="images/IMG_0689.jpg">
-                        </div>
-                    </div>
-
                     <div class="button prev"></div>
                     <div class="button next"></div>
                 </div>
+
+                <!--slick carousel-->
+                <div class="food-slickSlider">
+                    <div><img src="images/IMG_4244.jpg"></div>
+                    <div><img src="images/IMG_4245.jpg"></div>
+                    <div><img src="images/IMG_4246.jpg"></div>
+                    <div><img src="images/IMG_0682.jpg"></div>
+                    <div><img src="images/IMG_0688.jpg"></div>
+                    <div><img src="images/IMG_0689.jpg"></div>
+                </div>
+
                 <div class="caption">
                     <h3>About Our Food</h3>
                     <p></p>
@@ -134,23 +138,19 @@
                 <div id="event-images">
                     <div id="header">
                         <h2>Our Events</h2>
-                    </div>
-                    <!-- Slideshow container -->
-                    <div class="slideshow-container2">
-
-                        <div class="slider-wrapper2">
-                            <div class="inner-wrapper2">
-                                <img class="slide2" src="images/IMG_2348.JPG">
-                                <img class="slide2" src="images/IMG_1196.jpg">
-                                <img class="slide2" src="images/IMG_1543.JPG">
-                                <img class="slide2" src="images/IMG_1527.jpg">
-                            </div>
-                        </div>
-
                         <div class="button prev2"></div>
                         <div class="button next2"></div>
                     </div>
 
+                    <!--slick carousel-->
+                    <div class="event-slickSlider">
+                        <div><img src="images/IMG_2348.jpg"></div>
+                        <div><img src="images/IMG_1196.jpg"></div>
+                        <div><img src="images/IMG_1543.jpg"></div>
+                        <div><img src="images/IMG_1527.jpg"></div>
+                    </div>
+
+                    <!-- Slideshow container -->
                     <div class="caption">
                         <h3>Events</h3>
                         <p></p>
@@ -158,14 +158,10 @@
                 </div>
             </div>
         </div>
-
     </main>
-
     <div id="contact">
         <footer>
-
             <h2>Get In Touch</h2>
-
             <p href="#landing" class="btn" id="get-quote">Recieve a quote</p>
             <p>Email: DownSouthCaJJun@gmail.com</p>
             <p>Phone Number: (409)767-5548</p>
@@ -193,6 +189,44 @@
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
     <script src="js/main.js"></script>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.team-slickSlider').slick({
+                adaptiveHeight: true,
+                dots: true,
+                infinite: true,
+                fade: true,
+                mobileFirst: true,
+                swipe: true,
+                touchMove: true,
+                arrows: false
+            });
+            $('.food-slickSlider').slick({
+                adaptiveHeight: true,
+                dots: true,
+                infinite: true,
+                fade: true,
+                mobileFirst: true,
+                swipe: true,
+                touchMove: true,
+                arrows: false
+            });
+            $('.event-slickSlider').slick({
+                adaptiveHeight: true,
+                dots: true,
+                infinite: true,
+                fade: true,
+                mobileFirst: true,
+                swipe: true,
+                touchMove: true,
+                arrows: false
+            });
+        });
+    </script>
 </body>
 
 </html>

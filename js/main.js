@@ -81,65 +81,26 @@ $('#get-quote').on('click', function () {
     }, 1000);
 });
 
-$(function () {
-    var inWrap = $('.inner-wrapper');
-    $('.prev').on('click', function () {
-        inWrap.animate({
-            left: '0%'
-        }, 300, function () {
-            inWrap.css('left', '-100%');
-            $('.slide').first().before($('.slide').last());
-        });
-    });
-
-    $('.next').on('click', function () {
-        inWrap.animate({
-            left: '-200%'
-        }, 300, function () {
-            inWrap.css('left', '-100%');
-            $('.slide').last().after($('.slide').first());
-        });
-    });
+$('.prev1').click(function () {
+    $('.team-slickSlider').slick('slickPrev');
 })
 
-$(function () {
-    var inWrap = $('.inner-wrapper1');
-    $('.prev1').on('click', function () {
-        inWrap.animate({
-            left: '0%'
-        }, 300, function () {
-            inWrap.css('left', '-100%');
-            $('.slide1').first().before($('.slide1').last());
-        });
-    });
-
-    $('.next1').on('click', function () {
-        inWrap.animate({
-            left: '-200%'
-        }, 300, function () {
-            inWrap.css('left', '-100%');
-            $('.slide1').last().after($('.slide1').first());
-        });
-    });
+$('.next1').click(function () {
+    $('.team-slickSlider').slick('slickNext');
 })
 
-$(function () {
-    var inWrap = $('.inner-wrapper2');
-    $('.prev2').on('click', function () {
-        inWrap.animate({
-            left: '0%'
-        }, 300, function () {
-            inWrap.css('left', '-100%');
-            $('.slide2').first().before($('.slide2').last());
-        });
-    });
+$('.prev').click(function () {
+    $('.food-slickSlider').slick('slickPrev');
+})
 
-    $('.next2').on('click', function () {
-        inWrap.animate({
-            left: '-200%'
-        }, 300, function () {
-            inWrap.css('left', '-100%');
-            $('.slide2').last().after($('.slide2').first());
-        });
-    });
+$('.next').click(function () {
+    $('.food-slickSlider').slick('slickNext');
+})
+
+$('.prev2').click(function () {
+    $('.event-slickSlider').slick('slickPrev');
+})
+
+$('.next2').click(function () {
+    $('.event-slickSlider').slick('slickNext');
 })

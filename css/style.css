@@ -40,6 +40,22 @@ textarea {
     display: block;
     color: #000000;
     line-height: 1.25em;
+    padding-bottom: .5%
+}
+
+label1 {
+    color: #000000;
+    line-height: 1.25em;
+    padding-bottom: .5%
+}
+
+
+checkbox-wrapper li{
+    display: block;
+    float: left;
+    width: 45%;
+    display:table-cell;
+    padding-bottom: 10px;
 }
 
 .middle {
@@ -199,7 +215,7 @@ form {
     -moz-box-sizing: border-box;
     width: 100%;
     background: #fff;
-    margin-bottom: 4%;
+    margin-bottom: 2%;
     border: 1px solid #ccc;
     padding: 3%;
     color: #555;
@@ -360,6 +376,14 @@ a {
     #landing-image {
         height: 100vh;
     }
+
+    checkbox-wrapper li {
+        display: block;
+        float: left;
+        width: 33%;
+        display: table-cell;
+        padding-bottom: 3px;
+    }
 }
 
 /* for screen sizes 700px and up */
@@ -409,21 +433,24 @@ a {
 .button {
     width: 30px;
     height: 30px;
-    border-top: 5px solid rgb(85, 75, 75);
+    border-top: 5px solid rgb(219, 1, 1);
     position: absolute;
     cursor: pointer;
+    opacity: .8;
 }
 
 .prev {
-    border-left: 5px solid rgb(85, 75, 75);
+    border-left: 5px solid rgb(185, 2, 2);
     left: 10%;
     transform: rotate(-45deg);
+    opacity: .8;
 }
 
 .next {
-    border-right: 5px solid rgb(85, 75, 75);
+    border-right: 5px solid rgb(185, 2, 2);
     right: 10%;
     transform: rotate(45deg);
+    opacity: .8;
 }
 
 /* slider team */
@@ -464,21 +491,24 @@ a {
 .button1 {
     width: 30px;
     height: 30px;
-    border-top: 5px solid rgb(85, 75, 75);
+    border-top: 5px solid rgb(219, 1, 1);
     position: absolute;
     cursor: pointer;
+    opacity: .8;
 }
 
 .prev1 {
-    border-left: 5px solid rgb(85, 75, 75);
+    border-left: 5px solid rgb(185, 2, 2);
     left: 10%;
     transform: rotate(-45deg);
+    opacity: .8;
 }
 
 .next1 {
-    border-right: 5px solid rgb(85, 75, 75);
+    border-right: 5px solid rgb(185, 2, 2);
     right: 10%;
     transform: rotate(45deg);
+    opacity: .8;
 }
 
 /* slider events */
@@ -517,19 +547,22 @@ a {
 .button2 {
     width: 30px;
     height: 30px;
-    border-top: 5px solid rgb(85, 75, 75);
+    border-top: 5px solid rgb(219, 1, 1);
     position: absolute;
     cursor: pointer;
+    opacity: .8;
 }
 
 .prev2 {
-    border-left: 5px solid rgb(85, 75, 75);
+    border-left: 5px solid rgb(185, 2, 2);
     left: 10%;
     transform: rotate(-45deg);
+    opacity: .8;
 }
 
 .next2 {
-    border-right: 5px solid rgb(85, 75, 75);
+    border-right: 5px solid rgb(185, 2, 2);
     right: 10%;
     transform: rotate(45deg);
+    opacity: .8;
 }

@@ -104,3 +104,7 @@ $('.prev2').click(function () {
 $('.next2').click(function () {
     $('.event-slickSlider').slick('slickNext');
 })
+
+videoElement.addEventListener('canplaythrough', function () {
+    this.play();
+});

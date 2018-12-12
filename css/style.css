@@ -132,7 +132,6 @@ checkbox-wrapper li {
     margin: auto;
     padding-top: 5px;
     padding-bottom: 5px;
-
 }
 
 /* Navbar links */
@@ -157,7 +156,7 @@ checkbox-wrapper li {
     top: 0;
     width: 100%;
     max-width: 900px;
-    z-index: 4;
+    z-index: 1001;
     padding-top: 5px;
     padding-bottom: 5px;
 

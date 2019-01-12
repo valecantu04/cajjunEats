@@ -343,6 +343,10 @@ a {
     padding: 0%;
 }
 
+.arrows {
+    display: none;
+}
+
 /* Split screen for sizes 500px and up */
 @media(min-width: 500px) {
     #landing {
@@ -463,5 +467,9 @@ a {
         z-index: 1000;
         right: 7%;
         margin-top: 25%
+    }
+
+    .arrows{
+        display: block;
     }
 }

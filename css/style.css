@@ -245,7 +245,7 @@ form {
         1px -1px 0 #000,
         -1px 1px 0 #000,
         1px 1px 0 #000;
-    margin-left: 3%
+    padding-left: 3%;
 }
 
 .header-content h1 {
@@ -392,6 +392,7 @@ a {
 
     .header-content h1 {
         font-size: 6vw;
+        text-shadow: 2px 2px 2px #aaa;
 
     }
 

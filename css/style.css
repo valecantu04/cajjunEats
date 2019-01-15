@@ -17,8 +17,7 @@ h1 {
 }
 
 h1.form-title {
-    font-family: 'Bitter',
-    sans-serif;
+    font-family: 'Bitter', sans-serif;
     font-weight: 400;
     font-size: 2.5rem;
     text-transform: capitalize;
@@ -82,34 +81,8 @@ checkbox-wrapper li {
     font-size: 10;
 }
 
-.v-header {
-    height: 50vh;
-    display: flex;
-    align-items: center;
-    color: #ffffff;
-}
-
-.container {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    margin: auto;
-    text-align: center;
-    max-width: 900px;
-    box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1),
-        -30px 0px 40px rgba(0, 0, 0, 0.1);
-}
-
-.fullscreen-video-wrap {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 50vh;
-    overflow: hidden;
-}
-
 #buffer {
-    padding: 3rem;
+    padding: 2rem;
     text-align: center;
 }
 
@@ -143,11 +116,10 @@ checkbox-wrapper li {
     position: fixed;
     top: 0;
     width: 100%;
-    max-width: 900px;
+    /* max-width: 900px; */
     z-index: 1001;
     padding-top: 5px;
     padding-bottom: 5px;
-
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
@@ -247,31 +219,6 @@ form {
     background: #ff2b39;
 }
 
-.header-content {
-    z-index: 2;
-    text-shadow:
-        -1px -1px 0 #000,
-        1px -1px 0 #000,
-        -1px 1px 0 #000,
-        1px 1px 0 #000;
-    padding-left: 3%;
-}
-
-.header-content h1 {
-    color: #c02f1d;
-    padding-top: 3rem;
-    font-size: 4.5vh;
-    margin-bottom: 0;
-    text-align: center;
-}
-
-.header-content p {
-    max-height: 50%;
-    font-size: 1rem;
-    display: block;
-    padding-bottom: 1rem;
-}
-
 #landing {
     background: #ffffff
 }
@@ -356,6 +303,39 @@ a {
     display: none;
 }
 
+/* Strictly mobile view. mainy ommitions (video) */
+@media(max-width: 699px) {
+    video {
+        display: none;
+    }
+
+    .v-header {
+        display: none;
+    }
+
+    .fullscreen-video-wrap {
+        display: none;
+    }
+
+    .header-content h1 {
+        display: none;
+    }
+
+    .v-header.container {
+        display: none;
+    }
+
+    .container {
+        display: none;
+    }
+
+    #buffer {
+        padding: 0rem;
+        text-align: center;
+    }
+
+}
+
 /* Split screen for sizes 500px and up */
 @media(min-width: 500px) {
     #landing {
@@ -400,17 +380,52 @@ a {
         left: 0;
         width: 100%;
         height: 100%;
+    }
 
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin: auto;
+        text-align: center;
+        max-width: 900px;
+        box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1),
+            -30px 0px 40px rgba(0, 0, 0, 0.1);
+    }
+
+    .header-content {
+        z-index: 2;
+        text-shadow:
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+        text-shadow: 2px 2px 2px #aaa;
+        padding-left: 3%;
     }
 
     .header-content h1 {
+        color: #c02f1d;
+        padding-top: 3rem;
         font-size: 6vw;
-        text-shadow: 2px 2px 2px #aaa;
-
+        margin-bottom: 0;
+        text-align: center;
     }
 
     .header-content p {
+        max-height: 50%;
         font-size: 2vw;
+        display: block;
+        padding-bottom: 1rem;
+    }
+
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        max-width: 900px;
+        z-index: 1001;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
 
     .btn {
@@ -478,7 +493,7 @@ a {
         margin-top: 25%
     }
 
-    .arrows{
+    .arrows {
         display: block;
     }
 }

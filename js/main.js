@@ -73,6 +73,30 @@ $('#contact-us').on('click', function () {
     }, 1000);
 });
 
+$('#view-team-banner').on('click', function () {
+    const images = $('#team-images').position().top;
+
+    $('html, body').animate({
+        scrollTop: images
+    }, 900);
+});
+
+$('#view-food-banner').on('click', function () {
+    const images = $('#food-images').position().top;
+
+    $('html, body').animate({
+        scrollTop: images
+    }, 1000);
+});
+
+$('#contact-us-banner').on('click', function () {
+    const contact = $('#contact').position().top;
+
+    $('html, body').animate({
+        scrollTop: contact
+    }, 1000);
+});
+
 $('#get-quote').on('click', function () {
     const landing = $('#landing').position().top - 30;
 

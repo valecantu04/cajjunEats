@@ -174,7 +174,7 @@ form {
     -moz-box-sizing: border-box;
     width: 100%;
     background: #fff;
-    margin-bottom: 2%;
+    padding-bottom: 10%;
     border: 1px solid #ccc;
     padding: 3%;
     color: #555;
@@ -362,12 +362,17 @@ a {
 
 /* for screen sizes 700px and up */
 @media(min-width: 700px) {
+
+    main {
+        max-width: 900px;
+    }
+
     video {
         width: 100% !important;
         height: auto !important;
     }
 
-    .v-header.container{
+    .v-header.container {
         padding-bottom: 10%;
     }
 
@@ -436,7 +441,7 @@ a {
     /* video-button links */
     #video-buttons a {
         color: #000000;
-        background-color: #fff;
+        background-color: #eee;
         text-align: center;
         /* padding: 14px; */
         text-decoration: none;
@@ -448,7 +453,7 @@ a {
         background: #da2100;
         color: #eee;
     }
-    
+
     .sticky {
         position: fixed;
         top: 0;

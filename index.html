@@ -24,7 +24,7 @@
 
 <body>
     <main>
-
+        <!-- <div class="content"> -->
         <header class="v-header container ">
             <div class="fullscreen-video-wrap">
                 <video name="Video Name" src="http://www.dscEats.com/images/IMG_2273.mov" autoplay="true" loop="true"
@@ -32,178 +32,170 @@
             </div>
 
             <div class="header-content">
-                <h1>Down South CaJJun Eats <br>
-                    Crawfish Catering</h1>
-                </h1>
+                <img class = "fullscreen" src="../images/IMG_1840.PNG" alt="" />
+                <h1>Crawfish Catering</h1>
                 <p>Tastes So Good ~ Don't Make No Sense</p>
-                <div id='video-buttons'>
-                    <a href="#team-images" class="btn" id="view-team-banner">The Team</a>
-                    <a href="#food-images" class="btn" id="view-food-banner">Our Food</a>
-                    <a href="#contact" class="btn" id="contact-us-banner">Contact Us</a>
-                </div>
             </div>
         </header>
-</div>
+        <!-- </div> -->
 
         <div id='navbar'>
             <a href="#team-images" class="btn" id="view-team">The Team</a>
             <a href="#food-images" class="btn" id="view-food">Our Food</a>
             <a href="#contact" class="btn" id="contact-us">Contact Us</a>
         </div>
+        <div id="landing">
+            <div id="landing-text"></div>
+            <div id="landing-image">
+                <div class="form-style">
+                    <form action="https://formspree.io/DownSouthCajjun@gmail.com" method="POST">
+                        <h1 class="form-title">Receive a Quote</h1>
+                        <label>
+                            <input type="text" name="name" placeholder="Your Name" class="name">
+                        </label>
+                        <label>
+                            <input type="Tel" name="number" placeholder="Your Number" class="number">
+                        </label>
+                        <label>
+                            <input type="email" name="email" placeholder="Your Email" class="email">
+                        </label>
+                        <label>
+                            Event Date
+                            <input type="date" name="date" placeholder="Event Date" class="date">
+                        </label>
+                        <label>
+                            <input type="text" name="address" placeholder="Event Address" class="address">
+                        </label>
+                        <label>
+                            <input type="Number" name="num-people" placeholder="Number of People" class="num-people">
+                        </label>
 
-        <div class="content">
-            <div id="landing">
-                <div id="landing-text"></div>
-                <div id="landing-image">
-                    <div class="form-style">
-                        <form action="https://formspree.io/DownSouthCajjun@gmail.com" method="POST">
-                            <h1 class="form-title">Receive a Quote</h1>
-                            <label>
-                                <input type="text" name="name" placeholder="Your Name" class="name">
-                            </label>
-                            <label>
-                                <input type="Tel" name="number" placeholder="Your Number" class="number">
-                            </label>
-                            <label>
-                                <input type="email" name="email" placeholder="Your Email" class="email">
-                            </label>
-                            <label>
-                                Event Date
-                                <input type="date" name="date" placeholder="Event Date" class="date">
-                            </label>
-                            <label>
-                                <input type="text" name="address" placeholder="Event Address" class="address">
-                            </label>
-                            <label>
-                                <input type="Number" name="num-people" placeholder="Number of People" class="num-people">
-                            </label>
+                        <checkbox-wrapper>
+                            <li><input type="checkbox" name="Corn" value="Corn" />
+                                <label1 for="Corn">Corn</label1>
+                            </li>
+                            <li><input type="checkbox" name="Potatoes" value="Potatoes" />
+                                <label1 for="Potatoes">Potatoes</label1>
+                            </li>
+                            <li><input type="checkbox" name="Sausage" value="Sausage" />
+                                <label1 for="Sausage">Sausage</label1>
+                            </li>
+                            <li><input type="checkbox" name="Mushrooms" value="Mushrooms" />
+                                <label1 for="Mushrooms">Mushrooms</label1>
+                            </li>
+                            <li><input type="checkbox" name="Boiled Eggs" value="Boiled Eggs" />
+                                <label1 for="Boiled Eggs">Boiled Eggs</label1>
+                            </li>
+                            <li><input type="checkbox" name="Turkey Necks" value="Turkey Necks" />
+                                <label1 for="Turkey Necks">Turkey Necks</label1>
+                            </li>
 
-                            <checkbox-wrapper>
-                                <li><input type="checkbox" name="Corn" value="Corn" />
-                                    <label1 for="Corn">Corn</label1>
-                                </li>
-                                <li><input type="checkbox" name="Potatoes" value="Potatoes" />
-                                    <label1 for="Potatoes">Potatoes</label1>
-                                </li>
-                                <li><input type="checkbox" name="Sausage" value="Sausage" />
-                                    <label1 for="Sausage">Sausage</label1>
-                                </li>
-                                <li><input type="checkbox" name="Mushrooms" value="Mushrooms" />
-                                    <label1 for="Mushrooms">Mushrooms</label1>
-                                </li>
-                                <li><input type="checkbox" name="Boiled Eggs" value="Boiled Eggs" />
-                                    <label1 for="Boiled Eggs">Boiled Eggs</label1>
-                                </li>
-                                <li><input type="checkbox" name="Turkey Necks" value="Turkey Necks" />
-                                    <label1 for="Turkey Necks">Turkey Necks</label1>
-                                </li>
-
-                                <label>
-                                    <textarea name="message" placeholder="Message & Special Requests" class="message"></textarea>
-                                </label>
-                                <div class="status"></div>
-                                <input type="submit" value="Submit" class="submit">
-                        </form>
-                    </div>
+                            <label>
+                                <textarea name="message" placeholder="Message & Special Requests" class="message"></textarea>
+                            </label>
+                            <div class="status"></div>
+                            <input type="submit" value="Submit" class="submit">
+                    </form>
                 </div>
             </div>
-            <div id="team-images">
-                <div id="header">
-                    <h2>Our Team</h2>
+        </div>
+        <div id="team-images">
+            <div id="header">
+                <h2>Our Team</h2>
+            </div>
+            <div class="arrows">
+                <div class="button prev1">
+                    <i class="fa fa-arrow-circle-left" style="font-size:48px;color:red"></i>
                 </div>
-                <div class="arrows">
-                    <div class="button prev1">
-                        <i class="fa fa-arrow-circle-left" style="font-size:48px;color:red"></i>
-                    </div>
-                    <div class="button next1">
-                        <i class="fa fa-arrow-circle-right" style="font-size:48px;color:red"></i>
-                    </div>
-                </div>
-                <!--slick carousel-->
-                <div class="team-slickSlider">
-                    <div><img src="images/IMG_3017.jpg"></div>
-                    <div><img src="images/IMG_4242.jpg"></div>
-                    <div><img src="images/IMG_4241.jpg"></div>
-                    <div><img src="images/IMG_4243.jpg"></div>
-                </div>
-                <div class="caption">
-                    <h3>About Us</h3>
-                    <p>Down South CaJJun Eats was founded by twin brothers Jahmaal and Jermaine Dumes in the spring of
-                        2017. While Studying
-                        at Southwestern University in Georgetown, TX we decided to take a leap of faith. Being from
-                        Beaumont, TX we felt
-                        that a huge part of our lives was missing in Austin. And that was Crawfish. Coming from a
-                        family of cooks, we’ve
-                        always dreamed of starting a food business. With the help and support of family and friends, we
-                        were able to make
-                        this dream come alive. We take pride in our authentic style of cooking and strive to give you
-                        the full Down South
-                        CaJJun experience with great food, great people, and a great time! Bringing the great taste of
-                        Southeast
-                        Texas/Louisiana to Austin!</p>
+                <div class="button next1">
+                    <i class="fa fa-arrow-circle-right" style="font-size:48px;color:red"></i>
                 </div>
             </div>
+            <!--slick carousel-->
+            <div class="team-slickSlider">
+                <div><img src="images/IMG_3017.jpg"></div>
+                <div><img src="images/IMG_4242.jpg"></div>
+                <div><img src="images/IMG_4241.jpg"></div>
+                <div><img src="images/IMG_4243.jpg"></div>
+            </div>
+            <div class="caption">
+                <h3>About Us</h3>
+                <p>Down South CaJJun Eats was founded by twin brothers Jahmaal and Jermaine Dumes in the spring of
+                    2017. While Studying
+                    at Southwestern University in Georgetown, TX we decided to take a leap of faith. Being from
+                    Beaumont, TX we felt
+                    that a huge part of our lives was missing in Austin. And that was Crawfish. Coming from a
+                    family of cooks, we’ve
+                    always dreamed of starting a food business. With the help and support of family and friends, we
+                    were able to make
+                    this dream come alive. We take pride in our authentic style of cooking and strive to give you
+                    the full Down South
+                    CaJJun experience with great food, great people, and a great time! Bringing the great taste of
+                    Southeast
+                    Texas/Louisiana to Austin!</p>
+            </div>
+        </div>
 
-            <div id="food-images">
-                <div id="header">
-                    <h2>Our Food</h2>
+        <div id="food-images">
+            <div id="header">
+                <h2>Our Food</h2>
+            </div>
+            <div class="arrows">
+                <div class="button prev">
+                    <i class="fa fa-arrow-circle-left" style="font-size:48px;color:red"></i>
                 </div>
-                <div class="arrows">
-                    <div class="button prev">
-                        <i class="fa fa-arrow-circle-left" style="font-size:48px;color:red"></i>
-                    </div>
-                    <div class="button next">
-                        <i class="fa fa-arrow-circle-right" style="font-size:48px;color:red"></i>
-                    </div>
-                </div>
-                <!--slick carousel-->
-                <div class="food-slickSlider">
-                    <div><img src="images/IMG_4244.jpg"></div>
-                    <div><img src="images/IMG_4245.jpg"></div>
-                    <div><img src="images/IMG_4246.jpg"></div>
-                    <div><img src="images/IMG_0682.jpg"></div>
-                    <div><img src="images/IMG_0688.jpg"></div>
-                    <div><img src="images/IMG_0689.jpg"></div>
-                </div>
-
-                <div class="caption">
-                    <h3>About Our Food</h3>
-                    <p>We offer a delicious seasonal selection like none other. We are happy to cater Crawfish,
-                        Sausage, Potatoes, Corn,
-                        Mushrooms, Boiled Eggs, and Turkey Necks. You request it, we make it! <br>We'll even provide
-                        our
-                        Delicious CaJJun Sauce!</p>
+                <div class="button next">
+                    <i class="fa fa-arrow-circle-right" style="font-size:48px;color:red"></i>
                 </div>
             </div>
-            <div id="event-images">
-                <div id="header">
-                    <h2>Our Events</h2>
-                </div>
-                <div class="arrows">
-                    <div class="button prev2">
-                        <i class="fa fa-arrow-circle-left" style="font-size:48px;color:red"></i>
+            <!--slick carousel-->
+            <div class="food-slickSlider">
+                <div><img src="images/IMG_4244.jpg"></div>
+                <div><img src="images/IMG_4245.jpg"></div>
+                <div><img src="images/IMG_4246.jpg"></div>
+                <div><img src="images/IMG_0682.jpg"></div>
+                <div><img src="images/IMG_0688.jpg"></div>
+                <div><img src="images/IMG_0689.jpg"></div>
+            </div>
 
-                    </div>
-                    <div class="button next2">
-                        <i class="fa fa-arrow-circle-right" style="font-size:48px;color:red"></i>
-                    </div>
-                </div>
-                <!--slick carousel-->
-                <div class="event-slickSlider">
-                    <div><img src="images/IMG_2348.jpg"></div>
-                    <div><img src="images/IMG_1196.jpg"></div>
-                    <div><img src="images/IMG_1543.jpg"></div>
-                    <div><img src="images/IMG_1527.jpg"></div>
-                    <div><img src="images/IMG_1182.jpg"></div>
-                    <div><img src="images/IMG_1544.jpg"></div>
-                </div>
+            <div class="caption">
+                <h3>About Our Food</h3>
+                <p>We offer a delicious seasonal selection like none other. We are happy to cater Crawfish,
+                    Sausage, Potatoes, Corn,
+                    Mushrooms, Boiled Eggs, and Turkey Necks. You request it, we make it! <br>We'll even provide
+                    our
+                    Delicious CaJJun Sauce!</p>
+            </div>
+        </div>
+        <div id="event-images">
+            <div id="header">
+                <h2>Our Events</h2>
+            </div>
+            <div class="arrows">
+                <div class="button prev2">
+                    <i class="fa fa-arrow-circle-left" style="font-size:48px;color:red"></i>
 
-                <!-- Slideshow container -->
-                <div class="caption">
-                    <h3>Events</h3>
-                    <p></p>
+                </div>
+                <div class="button next2">
+                    <i class="fa fa-arrow-circle-right" style="font-size:48px;color:red"></i>
                 </div>
             </div>
+            <!--slick carousel-->
+            <div class="event-slickSlider">
+                <div><img src="images/IMG_2348.jpg"></div>
+                <div><img src="images/IMG_1196.jpg"></div>
+                <div><img src="images/IMG_1543.jpg"></div>
+                <div><img src="images/IMG_1527.jpg"></div>
+                <div><img src="images/IMG_1182.jpg"></div>
+                <div><img src="images/IMG_1544.jpg"></div>
+            </div>
+
+            <!-- Slideshow container -->
+            <div class="caption">
+                <h3>Events</h3>
+                <p></p>
+            </div>
+        </div>
         </div>
     </main>
 

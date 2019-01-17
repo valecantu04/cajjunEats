@@ -81,11 +81,6 @@ checkbox-wrapper li {
     font-size: 10;
 }
 
-#buffer {
-    padding-top: 10rem;
-    text-align: center;
-}
-
 #navbar {
     overflow: hidden;
     background-color: rgb(255, 255, 255, 0.8);
@@ -369,11 +364,11 @@ a {
 
     video {
         width: 100% !important;
-        height: auto !important;
+        height: 100% !important;
     }
 
     .v-header.container {
-        padding-bottom: 10%;
+        padding-bottom: 0%;
     }
 
     .v-header {
@@ -404,15 +399,26 @@ a {
 
     .header-content {
         z-index: 2;
-        padding-left: 3%;
+        margin: auto;
+        width: 70%;
+        overflow: hidden;
+        /* content: url(../images/IMG_1840.PNG) */
+    }
+
+    img.fullscreen {
+        display: inline;
+        width: 80%
     }
 
     .header-content h1 {
         color: #c02f1d;
-        padding-top: 3rem;
-        font-size: 6vw;
+        font-size: 3vw;
         margin-bottom: 0;
         text-align: center;
+        position: absolute;
+        top: 420px;
+        left: 0;
+        width: 100%;
         text-shadow: -1px -1px 0 #000,
             1px -1px 0 #000,
             -1px 1px 0 #000,
@@ -420,7 +426,7 @@ a {
     }
 
     .header-content p {
-        max-height: 50%;
+        /* max-height: 50%; */
         font-size: 2vw;
         display: block;
         padding-bottom: 1rem;
@@ -431,7 +437,7 @@ a {
     }
 
     #video-buttons {
-        overflow: hidden;
+        /* overflow: hidden; */
         text-align: center;
         margin: auto;
         padding-top: 5px;

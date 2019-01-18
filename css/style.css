@@ -47,7 +47,16 @@ textarea {
     display: block;
     color: #000000;
     line-height: 1.25em;
-    padding-bottom: .5%
+    padding-bottom: .5%;
+    padding: 2%;
+}
+
+label2 {
+    display: block;
+    line-height: 1.25em;
+    padding-bottom: .5%;
+    color: #da2100;
+    text-decoration: underline;
 }
 
 label1 {
@@ -56,11 +65,8 @@ label1 {
     padding-bottom: .5%
 }
 
-
 checkbox-wrapper li {
-    display: block;
-    float: left;
-    width: 45%;
+    display: inline;
     display: table-cell;
     padding-bottom: 10px;
 }
@@ -109,7 +115,6 @@ checkbox-wrapper li {
     position: fixed;
     top: 0;
     width: 100%;
-    /* max-width: 900px; */
     z-index: 1001;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -127,12 +132,12 @@ form {
 
 .form-style {
     font-family: 'Bitter', sans-serif;
-    max-width: 400px;
+    max-width: 80%;
     margin: 5%;
     padding: 16px;
     background: #F7F7F7;
     justify-content: center;
-    height: 0%;
+    margin: 0 auto;
 }
 
 .form-style h1 {
@@ -200,12 +205,19 @@ form {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    width: 100%;
+    width: 70%;
     padding: 3%;
     background: #ed3742;
     transition: background 500ms ease;
     border-radius: 12px;
     color: rgb(255, 255, 255);
+    font-size: 140%;
+    font-weight: 300;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 0 auto;
 }
 
 .form-style input[type="submit"]:hover {
@@ -224,7 +236,7 @@ form {
     display: flex;
     flex: 0 1 40vw;
     height: 50vh;
-    margin-left: 10px;
+    margin-bottom: 10px;
 
 
 }
@@ -237,6 +249,7 @@ form {
     height: 100vh;
     flex: 0 1 60vw;
     margin: 0;
+
 
 }
 
@@ -332,12 +345,13 @@ a {
 /* Split screen for sizes 500px and up */
 @media(min-width: 500px) {
     #landing {
-        display: flex;
+        /* display: flex; */
         height: 100%;
     }
 
     #landing-text {
-        height: 100vh;
+        /* height: 100vh; */
+        display: none;
     }
 
     #landing-image {
@@ -403,7 +417,6 @@ a {
     }
 
     img.fullscreen {
-        /* margin-top: -50%; */
         width: 85%;
         margin: 0 auto;
     }

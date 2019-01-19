@@ -237,8 +237,6 @@ form {
     flex: 0 1 40vw;
     height: 50vh;
     margin-bottom: 10px;
-
-
 }
 
 #landing-text h2 {
@@ -246,7 +244,7 @@ form {
 }
 
 #landing-image {
-    height: 100vh;
+    height: 100%;
     flex: 0 1 60vw;
     margin: 0;
 

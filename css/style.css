@@ -126,8 +126,10 @@ checkbox-wrapper li {
 }
 
 form {
+    display: block;
     height: 100vh;
-    max-height: 60%;
+    max-height: 100%;
+    min-height: 100%;
 }
 
 .form-style {
@@ -138,6 +140,8 @@ form {
     background: #F7F7F7;
     justify-content: center;
     margin: 0 auto;
+    height: 100%;
+    display: flex;
 }
 
 .form-style h1 {
@@ -177,6 +181,9 @@ form {
     padding: 3%;
     color: #555;
     font: 95% Arial, Helvetica, sans-serif;
+    display: flex;
+    max-height: 100%;
+    min-height: 100%;
 }
 
 .form-style input[type="checkbox"] {
@@ -184,7 +191,8 @@ form {
     border-radius: 2px;
     padding: 1%;
     display: inline;
-    padding-bottom: 1%
+    padding-bottom: 1%;
+    display: flex;
 }
 
 .form-style input[type="text"]:focus,
@@ -199,6 +207,7 @@ form {
     padding: 3%;
     border: 1px solid rgb(209, 171, 67);
     height: 90%;
+    display: flex;
 }
 
 .form-style input[type="submit"] {
@@ -218,10 +227,12 @@ form {
     padding-top: 1rem;
     padding-bottom: 1rem;
     margin: 0 auto;
+    display: flex;
 }
 
 .form-style input[type="submit"]:hover {
     background: #ff2b39;
+    overflow: hidden;
 }
 
 #landing {
@@ -415,8 +426,11 @@ a {
     }
 
     img.fullscreen {
+        z-index: 2;
         width: 85%;
         margin: 0 auto;
+        overflow: hidden;
+        display: flex;
     }
 
     .header-content h1 {
@@ -446,15 +460,6 @@ a {
             1px -1px 0 #000,
             -1px 1px 0 #000,
             1px 1px 0 #000;
-    }
-
-    /* remove */
-    #video-buttons {
-        /* overflow: hidden; */
-        text-align: center;
-        margin: auto;
-        padding-top: 5px;
-        padding-bottom: 5px;
     }
 
     /* video-button links */

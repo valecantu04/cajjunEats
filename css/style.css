@@ -127,13 +127,12 @@ checkbox-wrapper li {
 
 form {
     display: block;
-    /* height: 150vh; */
     max-height: 100%;
     min-height: 100%;
 }
 
 checkbox-wrapper li {
-    display: block;
+    /* display: block; */
     float: left;
     width: 33%;
     display: table-cell;

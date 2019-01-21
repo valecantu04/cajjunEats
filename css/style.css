@@ -126,10 +126,18 @@ checkbox-wrapper li {
 }
 
 form {
-    display: block;
-    height: 100vh;
+    /* display: block; */
+    height: 150vh;
     max-height: 100%;
     min-height: 100%;
+}
+
+checkbox-wrapper li {
+    display: block;
+    float: left;
+    width: 33%;
+    display: table-cell;
+    padding-bottom: 3px;
 }
 
 .form-style {
@@ -255,11 +263,10 @@ form {
 }
 
 #landing-image {
-    height: 100vh;
+    height: 150vh;
     flex: 0 1 60vw;
     margin: 0;
-
-
+    padding-bottom: 25%;
 }
 
 .btn {
@@ -364,7 +371,7 @@ a {
     }
 
     #landing-image {
-        height: 100vh;
+        height: 150vh;
     }
 
     checkbox-wrapper li {

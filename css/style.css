@@ -51,18 +51,18 @@ textarea {
     padding: 2%;
 }
 
+label1 {
+    color: #000000;
+    line-height: 1.25em;
+    padding-bottom: .5%
+}
+
 label2 {
     display: block;
     line-height: 1.25em;
     padding-bottom: .5%;
     color: #da2100;
     text-decoration: underline;
-}
-
-label1 {
-    color: #000000;
-    line-height: 1.25em;
-    padding-bottom: .5%
 }
 
 checkbox-wrapper li {
@@ -223,7 +223,7 @@ checkbox-wrapper li {
     -moz-box-sizing: border-box;
     width: 70%;
     padding: 3%;
-    background:#c40d19;
+    background: #c40d19;
     transition: background 500ms ease;
     border-radius: 12px;
     color: rgb(255, 255, 255);
@@ -348,12 +348,6 @@ a {
     .container {
         display: none;
     }
-
-    #buffer {
-        padding: 0rem;
-        text-align: center;
-    }
-
 }
 
 /* Split screen for sizes 500px and up */

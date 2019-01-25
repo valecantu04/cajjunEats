@@ -418,6 +418,7 @@ a {
     }
 
     .header-content {
+        -webkit-transform: translate3d(0, 0, 0);
         z-index: 2;
         margin: auto;
         width: 70%;
@@ -425,7 +426,7 @@ a {
     }
 
     img.fullscreen {
-        z-index: 2;
+        z-index: 1000;
         width: 85%;
         margin: 0 auto;
         overflow: hidden;
@@ -448,7 +449,7 @@ a {
     }
 
     .header-content p {
-        left: 32.5%;
+        left: 15%;
         max-height: 50%;
         font-size: 2vw;
         /* display: block; */

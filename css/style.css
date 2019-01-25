@@ -449,6 +449,7 @@ a {
     }
 
     .header-content p {
+        width: 100%;
         left: 15%;
         max-height: 50%;
         font-size: 2vw;

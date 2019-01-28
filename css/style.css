@@ -442,7 +442,7 @@ a {
         text-align: center;
         position: absolute;
         top: 90%;
-        /* left: 0; */
+        left: 0;
         width: 100%;
         text-shadow: -1px -1px 0 #000,
             1px -1px 0 #000,
@@ -452,6 +452,7 @@ a {
 
     .header-content p {
         width: 100%;
+        left: 0;
         /* left: 15%; */
         max-height: 50%;
         font-size: 2vw;

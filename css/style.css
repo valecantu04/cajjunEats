@@ -482,7 +482,7 @@ a {
 
     #landing-image {
         height: 115vh;
-        flex: 0 1 60vw;
+        /* flex: 0 1 60vw; */
         margin: 0;
     }
 

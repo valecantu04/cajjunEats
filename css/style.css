@@ -446,7 +446,7 @@ a {
     }
 
     .header-content h1 {
-        z-index: 1001;
+        /* z-index: 1001; */
         color: #c02f1d;
         font-size: 3vw;
         margin-bottom: 0;
@@ -465,7 +465,7 @@ a {
     .header-content p {
         float: left;
         clear: left;
-        z-index: 1001;
+        /* z-index: 1001; */
         width: 100%;
         left: 0;
         max-height: 50%;

@@ -127,7 +127,7 @@ checkbox-wrapper li {
 }
 
 form {
-    display: inline-block;
+    display: block;
     max-height: 100%;
     min-height: 100%;
 }

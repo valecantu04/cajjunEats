@@ -457,7 +457,6 @@ a {
         z-index: 1001;
         width: 100%;
         left: 0;
-        /* left: 15%; */
         max-height: 50%;
         font-size: 2vw;
         display: block;
@@ -479,6 +478,12 @@ a {
         z-index: 1001;
         padding-top: 5px;
         padding-bottom: 5px;
+    }
+
+    #landing-image {
+        height: 115vh;
+        flex: 0 1 60vw;
+        margin: 0;
     }
 
     .btn {

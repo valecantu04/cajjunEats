@@ -113,6 +113,7 @@ checkbox-wrapper li {
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
     position: fixed;
+    text-align: center;
     top: 0;
     width: 100%;
     z-index: 1001;
@@ -422,7 +423,7 @@ a {
         z-index: 2;
         margin: auto;
         width: 70%;
-        overflow: hidden;
+        /* overflow: hidden; */
     }
 
     img.fullscreen {
@@ -437,6 +438,7 @@ a {
         color: #c02f1d;
         font-size: 3vw;
         margin-bottom: 0;
+        margin-top: 5%;
         text-align: center;
         position: absolute;
         top: 90%;
@@ -462,22 +464,6 @@ a {
             1px -1px 0 #000,
             -1px 1px 0 #000,
             1px 1px 0 #000;
-    }
-
-    /* video-button links */
-    #video-buttons a {
-        color: #000000;
-        background-color: #eee;
-        text-align: center;
-        /* padding: 14px; */
-        text-decoration: none;
-        margin: auto;
-        transition: background 500ms ease;
-    }
-
-    #video-buttons :hover {
-        background: #da2100;
-        color: #eee;
     }
 
     .sticky {

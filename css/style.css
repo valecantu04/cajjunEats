@@ -1,17 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 @import url('https://fonts.googleapis.com/css?family=Bitter');
 
-/* @media all and (-ms-high-contrast: none),
-(-ms-high-contrast: active) {
-
-    /* IE10+ CSS styles go here */
-    #landing-image {
-        height: 150vh;
-        flex: 0 1 60vw;
-        margin: 0;
-    }
-} */
-
 body {
     font-family: 'Bitter', sans-serif;
     margin: auto;

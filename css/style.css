@@ -452,6 +452,8 @@ a {
     }
 
     .header-content p {
+        float: left;
+        clear: left;
         z-index: 1001;
         width: 100%;
         left: 0;

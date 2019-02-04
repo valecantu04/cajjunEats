@@ -66,10 +66,10 @@ $('#view-food').on('click', function () {
 });
 
 $('#contact-us').on('click', function () {
-    const contact = $('#contact').position().top;
+    const landing = $('#landing').position().top - 30;
 
     $('html, body').animate({
-        scrollTop: contact
+        scrollTop: landing
     }, 1000);
 });
 

@@ -236,7 +236,8 @@ ul {
 }
 
 .contact form button {
-    background: #c9e6ff;
+    font-family: 'Bitter',
+        sans-serif;
     border: 0;
     text-transform: uppercase;
     background: #c40d19;
@@ -244,17 +245,15 @@ ul {
     -o-transition: background 500ms ease;
     transition: background 500ms ease;
     border-radius: 12px;
-    color: rgb(255, 255, 255);
+    color: #eee;
+    font-weight: 400;
+    font-size: 1.5rem;
 }
 
 .contact form button:hover,
 .contact form button:focus {
-    background: #8a0000;
-    color: #ffff;
-    outline: 0;
-    -webkit-transition: background-color 2s ease-out;
-    -o-transition: background-color 2s ease-out;
-    transition: background-color 2s ease-out;
+    background: #da2100;
+    color: #eee;
 }
 
 #landing {

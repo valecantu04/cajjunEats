@@ -136,6 +136,33 @@ checkbox-wrapper li {
     box-sizing: border-box;
 }
 
+#banner {
+    overflow: hidden;
+    background-color: rgb(255, 255, 255, 0.8);
+    text-align: center;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* Navbar links */
+#banner a {
+    color: #da2100;
+    background-color: #fff;
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+    margin: auto;
+    -webkit-transition: background 500ms ease;
+    -o-transition: background 500ms ease;
+    transition: background 500ms ease;
+}
+
+#banner :hover {
+    background: #da2100;
+    color: #eee;
+}
+
 .form-style {
     max-width: 1170px;
     margin-left: auto;

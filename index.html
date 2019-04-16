@@ -82,16 +82,23 @@
                                 <input type="email" name="email" placeholder="Your Email">
                             </p>
                             <p>
-                                <label> Date </label>
-                                <input type="date" name="date" placeholder="Event Date">
+                                <label> Date & Event Start Time</label>
+                                <input type="datetime-local" name="date" placeholder="Event Date">
+                            </p>
+                            <p>
+                                <label> Number of people </label>
+                                <input type="Number" name="num-people" placeholder="Number of People" min=1>
                             </p>
                             <p>
                                 <label> Address </label>
                                 <input type="text" name="address" placeholder="Event Address">
                             </p>
                             <p>
-                                <label> Number of people </label>
-                                <input type="Number" name="num-people" placeholder="Number of People">
+                                <label> Lbs. of Food per Person </label>
+                                <input type="Number" name="lbspeople" placeholder="Lbs./Person" min=1>
+                            </p>
+                            <p>
+                                <!--This is here in order to offset the grid and keep the inputs alligned. do not remove.-->
                             </p>
                             <p>
                                 <label-header>Entrées</label-header>

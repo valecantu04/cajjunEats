@@ -6,9 +6,6 @@ $(document).ready(function () {
         var number = $('.number').val()
         var email = $('.email').val()
         var date = $('.date').val()
-        var address = $('.address').val()
-        var numPeople = $('.num-people').val()
-        var message = $('.message').val()
         var statusElm = $('.status')
         statusElm.empty()
 

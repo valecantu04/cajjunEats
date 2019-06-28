@@ -366,6 +366,20 @@ a {
     display: none;
 }
 
+.insta-container>a:first-of-type {
+    grid-column: 2;
+}
+
+.insta-container>a:nth-of-type(3) {
+    grid-column: 4 / span 2;
+}
+
+.instaimg img:hover {
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    -webkit-opacity: 0.8;
+}
+
 /* Strictly mobile view. mainy ommitions (video) */
 @media(max-width: 699px) {
     video {
@@ -390,6 +404,18 @@ a {
 
     .container {
         display: none;
+    }
+
+    /* custom instragram layout for mobile. */
+    .insta-container {
+        padding-top: 2vh;
+        padding-bottom: 5vh;
+        justify-content: space-evenly;
+        display: -ms-grid;
+        display: grid;
+        grid-template-columns: repeat(3, 15vh);
+        grid-template-rows: repeat(3, 15vh);
+        grid-gap: 1vh;
     }
 }
 
@@ -628,6 +654,18 @@ a {
         -o-transform: rotate(-90deg);
         -ms-transform: rotate(-90deg);
         transform: rotate(-90deg);
+    }
+
+    /* custom for desktop view instagram*/
+    .insta-container {
+        padding-top: 5vh;
+        padding-bottom: 10vh;
+        justify-content: space-evenly;
+        display: -ms-grid;
+        display: grid;
+        grid-template-columns: repeat(3, 40vh);
+        grid-template-rows: repeat(3, 40vh);
+        grid-gap: 10px;
     }
 }
 

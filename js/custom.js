@@ -2,6 +2,7 @@ $(document).ready(function () {
 
 
     var userFeed = new Instafeed({
+        target: 'instafeed',
         get: 'user',
         userId: '7530937511',
         limit: 10,

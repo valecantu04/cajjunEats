@@ -126,6 +126,6 @@ $('.next2').click(function () {
     $('.event-slickSlider').slick('slickNext');
 })
 
-videoElement.addEventListener('canplaythrough', function () {
-    this.play();
-});
+// videoElement.addEventListener('canplaythrough', function () {
+//     this.play();
+// });

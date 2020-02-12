@@ -147,8 +147,8 @@ checkbox-wrapper li {
 
 /* Navbar links */
 #banner a {
-    color: #da2100;
-    background-color: #FEFF07;
+    background: #da2100;
+    color: #eee;
     text-align: center;
     padding: 25px;
     text-decoration: none;
@@ -156,11 +156,6 @@ checkbox-wrapper li {
     -webkit-transition: background 500ms ease;
     -o-transition: background 500ms ease;
     transition: background 500ms ease;
-}
-
-#banner :hover {
-    background: #da2100;
-    color: #eee;
 }
 
 .form-style {

@@ -283,7 +283,7 @@ ul {
 }
 
 #landing-text {
-    background: url(../images/Header.JPG);
+    background: url(../images/Header082020.JPG);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -470,7 +470,7 @@ a {
 
     img.fullscreen {
         z-index: 1000;
-        width: 85%;
+        width: 80vh;
         margin: 0 auto;
         display: -webkit-box;
         display: -ms-flexbox;
@@ -826,7 +826,7 @@ a {
     #landing {
         background: #ffffff
     }
-
+    
     #landing-text {
         background: url(../images/IMG_1840.PNG);
         background-position: center;
@@ -909,7 +909,7 @@ a {
         display: none;
     }
 
-    /* Strictly mobile view. mainy ommitions (video) */
+    /* Strictly mobile view. mainly ommitions (video) */
     @media(max-width: 699px) {
         video {
             display: none;
